@@ -1,3 +1,5 @@
+# blog-1 :Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
+
 Any allow a variable hold value of any datatype. if we not sure about data type of the variable, we can use any. when we dealing with dynamic value from API that we can not now the data type of a variable in this senario we can use any datatype.
 
         let data: any = "Hello";
