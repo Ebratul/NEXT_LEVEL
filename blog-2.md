@@ -1,5 +1,6 @@
-four pillars of OOP like :Inheritance, Polymorphism, Abstraction, and Encapsulation.
+# Blog-4 :How do the four pillars of OOP—Inheritance, Polymorphism, Abstraction, and Encapsulation—help manage logic and reduce complexity in large-scale TypeScript projects?
 
+four pillars of OOP like :Inheritance, Polymorphism, Abstraction, and Encapsulation.
 
 Encapsulation :  Encapsulation is the process of OOP, where bind data, method etc in a class. Data is only accessable inside of the class. It increase the reusability of the class.useing method or creating object of the class data can access.
 
