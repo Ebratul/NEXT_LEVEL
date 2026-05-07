@@ -19,18 +19,18 @@ Encapsulation :  Encapsulation is the process of OOP, where bind data, method et
 
 Inheritance : Inheritance is a process where parant properties inherit child. 
 
-class Person{
-    constructor(public name: string, public age : number){}
-}
-
-class Student extends Person{
-    constructor( name:string,  age : number, public grade : string){
-        super(name, age);
-    }
-    getDetails(): string{
-        return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
-    }
-}
+        class Person{
+            constructor(public name: string, public age : number){}
+        }
+        
+        class Student extends Person{
+            constructor( name:string,  age : number, public grade : string){
+                super(name, age);
+            }
+            getDetails(): string{
+                return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
+            }
+        }
 
 here Student class inherit the properties of Person class and can use name, age, grade properties as its own properties.
 
